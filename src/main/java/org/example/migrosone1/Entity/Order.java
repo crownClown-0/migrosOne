@@ -24,4 +24,5 @@ public class Order {
 
     @OneToMany(mappedBy = "order")
     private List<OrderProduct> OrderProducts;
+
 }
